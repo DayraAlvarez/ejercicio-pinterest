@@ -5,6 +5,7 @@ body{
 
 header{
   background-color: #b67b7b;
+  position: fixed;
 }
 
 header > *{
@@ -26,5 +27,20 @@ header >navbar{
 
 .col {
   float: left;
-  width: 30%;
-  margin: 10px, 10px;}
+  justify-content: space-between;
+  width: 20%;
+  margin: 1em 1em;
+}
+
+img {
+  border: 1px solid black;
+  border-radius: 5%;
+  display:inline-block;
+  height: 18em;
+  width: 100%;
+  margin-left: 10%;
+}
+
+nav{
+  :black;
+}
