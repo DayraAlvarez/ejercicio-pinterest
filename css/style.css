@@ -1,0 +1,30 @@
+body{
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+header{
+  background-color: #b67b7b;
+}
+
+header > *{
+  display:inline-block;
+  text-align: center;
+}
+
+header > h1 {
+  width: 5%;
+}
+
+header > form {
+  width: 70%;
+}
+
+header >navbar{
+  width: 20%;
+}
+
+.col {
+  float: left;
+  width: 30%;
+  margin: 10px, 10px;}
